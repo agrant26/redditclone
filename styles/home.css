@@ -1,0 +1,43 @@
+.create-post-form {
+  background: white;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 600px;
+}
+
+.create-post-form input, .create-post-form textarea {
+  padding: 10px;
+  border: 1px solid #eee;
+  background: #f6f7f8;
+  border-radius: 4px;
+}
+
+.create-post-form button {
+  align-self: flex-end;
+  background-color: #0079d3;
+  color: white;
+  border: none;
+  padding: 6px 20px;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.Home {
+  display: flex;
+  justify-content: center; /* Centers the whole content */
+  gap: 24px;
+  padding: 20px;
+  background-color: #dae0e6; /* Reddit's light grey background */
+  min-height: 100vh;
+}
+
+.feed-column {
+  flex: 1;
+  max-width: 640px; /* Standard Reddit post width */
+}

@@ -1,0 +1,83 @@
+
+.post-card {
+  background: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 10px;
+  max-width: 600px;
+  text-align: left;
+}
+
+.post-footer button {
+  margin-right: 10px;
+  background: none;
+  border: 1px solid #eee;
+  cursor: pointer;
+}
+
+.vote-btn.up.active {
+  color: #ff4500;
+}
+
+.vote-btn.down.active {
+  color: #7193ff;
+}
+
+.amountUpvotes-text {
+  font-weight: bold;
+  color: #ff4500;
+}
+
+.amountDownvotes-text {
+  font-weight: bold;
+  color: #7193ff;
+  margin-left: 10px;
+}
+
+.delete-btn {
+  background: none;
+  color: #878a8c;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 3px;
+  transition: background-color 0.3s ease;
+}
+
+.delete-btn:hover {
+  background-color: #ff45001a;
+  color: #ff4500;
+}
+
+.post-btn {
+  background: none;
+  border: none;
+  color: #878a8c;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.edit-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.edit-textarea {
+ min-height: 80px;
+ padding: 5px;
+ font-family: inherit;
+}
+
+.edit-input{
+  font-size: 1.1rem;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.edit-section{
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}

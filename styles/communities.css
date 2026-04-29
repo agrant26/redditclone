@@ -1,0 +1,39 @@
+
+.communities {
+  padding: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.community-list {
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.community-card {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.community-card button {
+  background-color: #0079d3;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.community-card button.joined {
+  background-color: transparent;
+  color: #0079d3;
+  border: 1px solid #0079d3;
+}
